@@ -1,0 +1,77 @@
+.display-item {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.link-tag {
+  color: #1e293b;
+  text-decoration: none;
+  display: flex;
+}
+.tech-container {
+  width: 80%;
+  margin: auto;
+}
+
+.item-box {
+  width: 200px;
+  height: 80px;
+}
+.item-heading {
+  font-size: 16px;
+  margin-left: 15px;
+  font-weight: bold;
+}
+.item-img {
+  height: 50px;
+  width: 50px;
+}
+.loader {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.courses-heading {
+  color: #1e293b;
+  margin-left: 4px;
+  padding: 20px 0px;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.failure-view-img {
+  height: 300px;
+}
+
+.failure-view-btn {
+  height: 30px;
+  width: 80px;
+  border: 0px;
+  border-radius: 5px;
+  background-color: #4656a1;
+  color: #fff;
+  cursor: pointer;
+}
+
+.failure-view-heading {
+  font-size: 18px;
+  color: #475569;
+  margin-bottom: 0px;
+}
+
+.failure-view-para {
+  font-size: 16px;
+  color: #64748b;
+}
